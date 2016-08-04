@@ -1,0 +1,110 @@
+body {
+  background-image: url("corcho.jpg")
+}
+
+.board {
+  font-family: monospace;
+  /*background-color: #9e8d68;*/
+/*  margin: 0;
+  padding: 0;*/
+  position: absolute;
+  top: 0px;
+  width: 90%;
+  right: 0px;
+  height: 100%;
+  background-image: url("corcho.jpg")
+}
+
+.post-it {
+  position: absolute !important;
+  width: 160px;
+  background-color: yellow;
+  box-shadow: -2px 2px 5px #555;
+  overflow: hidden;
+   z-index: auto;
+}
+
+.post-it .header {
+  background-color: #c2c25b;
+  text-align: right;
+  padding: 2px;
+}
+
+.post-it .header:hover {
+  background-color: #a8a860;
+}
+
+.post-it .header a, .post-it .header a:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.post-it .header a:hover {
+  color: #eee;
+}
+
+.post-it .content {
+  padding: 10px;
+  height: 70px;
+  outline: none;
+}
+
+#master {
+  visibility:  hidden;
+}
+
+.close {
+  padding: 0px;
+  padding-left: 3px;
+  margin-left: 90%;
+}
+
+
+.close:hover {
+    cursor:no-drop;
+}
+
+
+#barra {
+  width: 10%;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background-color: #FF4500;
+  position: absolute;
+}
+
+#button_add {
+  position: relative;
+  top: 50px;
+  height: 40px;
+  width: 130px;
+  border-radius: 10px ;
+  background-color: #D2691E;
+  color: black;
+  font-size: 1em;
+  box-shadow: 2px 2px 2px black;
+}
+
+.boards_names {
+  top: 40px;
+  position: relative;
+  background-color: #FFF8DC;
+  border-radius: 9px;
+  color: black;
+  font-size: 1em;
+}
+
+/*
+#board_0 {
+
+  visibility: hidden;
+
+}*/
+
+#names_board_barra {
+  top: 100px;
+}
+
+
